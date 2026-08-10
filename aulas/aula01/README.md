@@ -2,7 +2,7 @@
 
 ## Evolução
 
-XP (1990) -> Cloud (2005(?)) -> DevOps (2009) -> Entrega Contínua (2010) -> Containers (???) -> Microssserviços
+XP (1990) -> Cloud (2005(?)) -> DevOps (2009) -> Entrega Contínua (2010) -> Containers (???) -> Microsserviços
 
 **Estratégia antiga**: Acertar de primeira.
 *Mudar é caro, então decida certo no início e não mexa mais*
