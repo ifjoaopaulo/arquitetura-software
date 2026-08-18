@@ -1,4 +1,4 @@
-import { Autor } from './autor.ts';
+import { Autor } from "./autor.ts";
 
 export class Livro {
   titulo: String;
@@ -14,6 +14,6 @@ export class Livro {
   }
 
   descricao(): String {
-    return `${this.titulo} (${this.ano), ${this.autor}`;
+    return `${this.titulo} (${this.ano}), ${this.autor.nome}`;
   }
 }

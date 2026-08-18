@@ -1,4 +1,4 @@
-import { Livro } from './livro';
+import { Livro } from "./livro";
 
 export class Autor {
   nome: String;
@@ -10,10 +10,10 @@ export class Autor {
   }
 
   adicionarLivro(livro: Livro): void {
-    this.livro.push(livro);
+    this.livros.push(livro);
   }
 
   quantidadeDeLivros(): number {
-    console.log(`Quantidade de livros: ${this.livros.length}`);
+    return this.livros.length;
   }
 }
